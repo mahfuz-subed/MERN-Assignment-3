@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- CSS Link -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Area Start -->
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="nav-container-right">
+            <h2 class="owner-name">Mahfuz Subed</h2>
+          </div>
+
+          <div class="nav-container-left">
+            <ul class="nav-list-container">
+              <li class="nav-list">
+                <a class="nav-links" href="#about">About</a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-links" href="#skills">Skills</a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-links" href="#services">Services</a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-links" href="#project">Projects</a>
+              </li>
+              <li class="nav-list">
+                <a class="nav-links" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header Area End -->
+
+    <!-- Hero Area Start -->
+
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1 class="hero-title">Mahfuz Ahmad Subed</h1>
+        <h3 class="hero-title-info">Aspiring MERN Stack Developer</h3>
+      </div>
+      <div class="hero-image">
+        <img
+          src="/photos/meyellow.jpg"
+          width="300px"
+          alt="a picture of subed"
+        />
+      </div>
+    </div>
+
+    <!-- about section  -->
+
+    <section id="about">
+      <h2 class="about-section-title">About me</h2>
+
+      <div class="about-container">
+        <p class="about-me-para">
+          Hi, I’m Mahfuz. I’m currently learning full-stack web development with
+          a focus on the MERN stack (MongoDB, Express.js, React, and Node.js).
+          I’m building my skills step by step and working on small projects to
+          understand how real applications work. My goal right now is to
+          strengthen my fundamentals, gain hands-on experience, and eventually
+          become a confident MERN stack developer. This portfolio showcases what
+          I’ve learned so far and the progress I’m making on my journey into web
+          development.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="skill-section-title">Skills</h2>
+
+      <div class="all-skills-container">
+        <div class="skill-container">
+          <div class="outer">
+            <div class="inner">
+              <div class="number">80%</div>
+            </div>
+          </div>
+
+          <svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+            <circle
+              class="skill1"
+              r="89"
+              cx="100"
+              cy="100"
+              stroke="green"
+              stroke-width="10"
+              fill="none"
+            />
+            Sorry, your browser does not support inline SVG.
+          </svg>
+          <h3 class="skill-title">HTML</h3>
+        </div>
+        <div class="skill-container">
+          <div class="outer">
+            <div class="inner">
+              <div class="number">60%</div>
+            </div>
+          </div>
+
+          <svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+            <circle
+              class="skill2"
+              r="89"
+              cx="100"
+              cy="100"
+              stroke="green"
+              stroke-width="10"
+              fill="none"
+            />
+            Sorry, your browser does not support inline SVG.
+          </svg>
+          <h3 class="skill-title">CSS</h3>
+        </div>
+        <div class="skill-container">
+          <div class="outer">
+            <div class="inner">
+              <div class="number">10%</div>
+            </div>
+          </div>
+
+          <svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+            <circle
+              class="skill3"
+              r="89"
+              cx="100"
+              cy="100"
+              stroke="none"
+              stroke-width="10"
+              fill="none"
+            />
+            Sorry, your browser does not support inline SVG.
+          </svg>
+          <h3 class="skill-title">JavaScript</h3>
+        </div>
+        <div class="skill-container">
+          <div class="outer">
+            <div class="inner">
+              <div class="number">0%</div>
+            </div>
+          </div>
+
+          <svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+            <circle
+              class="skill4"
+              r="89"
+              cx="100"
+              cy="100"
+              stroke="none"
+              stroke-width="10"
+              fill="none"
+            />
+            Sorry, your browser does not support inline SVG.
+          </svg>
+          <h3 class="skill-title">React</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2 class="service-section-title">Services</h2>
+
+      <div class="service-container">
+        <div class="mern-stack">
+          <i class="fa-solid fa-laptop-code" id="service-icon1"></i>
+          <h2 class="service-title">Full-Stack MERN Development</h2>
+          <p class="service-para">
+            End to end web applications using MongoDB, Express, React and Node.
+          </p>
+        </div>
+        <div class="frontend">
+          <i class="fa-brands fa-react" id="service-icon2"></i>
+          <h2 class="service-title">React Frontend Development</h2>
+          <p class="service-para">
+            Dynamic UI with reusable components and responsive layouts.
+          </p>
+        </div>
+        <div class="database">
+          <i class="fa-solid fa-database" id="service-icon3"></i>
+          <h2 class="service-title">MongoDB Database Modeling</h2>
+          <p class="service-para">
+            Schema design, relationships, and optimization with Mongoose.
+          </p>
+        </div>
+        <div class="UI">
+          <i class="fa-solid fa-brush" id="service-icon4"></i>
+
+          <h2 class="service-title">UI Conversion</h2>
+          <p class="service-para">
+            Turning designs into functional React components.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Project section -->
+
+    <section id="project">
+      <h2 class="project-section-title">My Projects</h2>
+
+      <div class="parent-project-container">
+        <div class="project-container">
+          <img
+            src="/photos/project1.png"
+            width="400px"
+            alt="figma project"
+            class="project1-pic"
+          />
+
+          <div class="project1-text">
+            <h3 class="project1-title">
+              Figma to Responsive Website Conversion
+            </h3>
+            <p class="projec1-para">
+              I converted a Figma design into a fully functional webpage using
+              only HTML and raw CSS. This project helped me practice clean HTML,
+              CSS Flexbox, and responsive design techniques.
+            </p>
+
+            <a
+              href="https://mern-css-assignment.netlify.app/"
+              class="project1-link"
+              >Live link <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-container">
+          <img
+            src="/photos/project2png.png"
+            alt="figma project2"
+            class="project1-pic"
+          />
+
+          <div class="project1-text">
+            <h3 class="project1-title">
+              Image Positioning – Figma to HTML/CSS
+            </h3>
+            <p class="projec1-para">
+              This project demonstrates my ability to convert a Figma layout
+              into code. I practiced placing images, arranging elements, and
+              matching the design visually using raw HTML and CSS.
+            </p>
+
+            <a href="https://dailytask0602.netlify.app/" class="project1-link"
+              >Live link <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+      <h2 class="contact-section-title">Get Connected with Me</h2>
+      <div class="contact-container">
+        <h3 class="contact-title">Contact</h3>
+        <div class="info-container">
+          <p>
+            <i class="fa-solid fa-phone" id="phone"></i>
+            <a href="tel:+8801738490668" class="num">01738490668</a>, Bangladesh
+          </p>
+
+          <p class="info-para">
+            <i class="fa-solid fa-envelope" id="email"></i>
+            <a href="mailto:mahfuzsubed@gmail.com" class="mail"
+              >mahfuzsubed@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" class="linkdin"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
